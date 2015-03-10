@@ -26,6 +26,7 @@ namespace LoDWatchDog
                         {
                             // Kill mr process
                             process.Kill();
+                            Console.WriteLine("Killed a hanging server!");
                         }
                     }
                 }
