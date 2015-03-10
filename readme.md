@@ -2,7 +2,5 @@ Legends of Dota Watch Dog
 =========================
 
  - This is a bare basic watchdog for an LoD server
- - Stick this program into the directory with SRCDS.exe
- - Ensure LoD is installed correctly
- - Start the executable
- - It will restart the server each time it crashes / stops
+ - Start this executable
+ - If SRCDS has an engine error, for example `Engine error: ED_Alloc: no free edicts` this will kill SRCDS to it is free to restart
